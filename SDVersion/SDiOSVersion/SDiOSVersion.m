@@ -12,6 +12,8 @@
 
 @implementation SDiOSVersion
 
+// 关系查询参考：https://www.theiphonewiki.com/wiki/Models
+// https://everymac.com/ultimate-mac-lookup/?search_keywords=iPad8%2C1
 + (NSDictionary*)deviceNamesByCode
 {
     static NSDictionary *deviceNamesByCode = nil;
@@ -95,6 +97,10 @@
                               @"iPad7,4"  : @(iPadPro10Dot5Inch),
                               @"iPad7,5"  : @(iPad6),
                               @"iPad7,6"  : @(iPad6),
+                              @"iPad8,1"  : @(iPadPro11Inch),
+                              @"iPad8,2"  : @(iPadPro11Inch),
+                              @"iPad8,3"  : @(iPadPro11Inch),
+                              @"iPad8,4"  : @(iPadPro11Inch),
 
                               //iPods
                               @"iPod1,1" : @(iPodTouch1Gen),
@@ -258,8 +264,9 @@
              @(iPadPro12Dot9Inch)    : @"iPad Pro 12.9 inch",
              @(iPad5)                : @"iPad 5",
              @(iPadPro10Dot5Inch)    : @"iPad Pro 10.5 inch",
-             @(iPadPro12Dot9Inch2Gen): @"iPad Pro 12.9 inch",
+             @(iPadPro12Dot9Inch2Gen): @"iPad Pro 12.9 inch 2Gen",
              @(iPad6)                : @"iPad 6",
+             @(iPadPro11Inch)        : @"iPad Pro 11 inch",
              
              @(iPodTouch1Gen)        : @"iPod Touch 1st Gen",
              @(iPodTouch2Gen)        : @"iPod Touch 2nd Gen",
