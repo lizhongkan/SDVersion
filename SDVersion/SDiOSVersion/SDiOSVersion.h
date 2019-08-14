@@ -47,6 +47,7 @@ typedef NS_ENUM(NSInteger, DeviceVersion){
     iPadPro10Dot5Inch     = 35,
     iPad6                 = 36,
     iPadPro11Inch         = 37,
+    iPadPro12Dot9Inch3Gen = 38,
     
     iPodTouch1Gen         = 300,
     iPodTouch2Gen         = 301,
